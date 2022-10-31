@@ -7,6 +7,9 @@
             <section class="box-content-x2">
                 <div class="row">
                     <h3>Category Products List</h3>
+                    <a href="{{route('products.create')}}" class="btn btn-success">
+                            Add Product
+                        </a>
                     <div class="table-scroll">
                         <table>
                             <thead>

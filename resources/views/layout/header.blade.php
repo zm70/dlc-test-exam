@@ -12,7 +12,7 @@
                 <nav data-menu="horizontal">
                     <ul class="nav nav-one">
                         <li><a href="{{route('home')}}">Home</a></li>
-                        <li><a href="{{route('products')}}">Products</a></li>
+                        <li><a href="{{route('products.index')}}">Products</a></li>
                         <li><a href="{{route('api-doc')}}">API Doc</a></li>
                     </ul>
                 </nav>

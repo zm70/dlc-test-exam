@@ -15,5 +15,7 @@ use App\Http\Controllers\WEB\WebController;
 */
 
 Route::get('/', [WebController::class,'index'])->name('home');
-Route::get('/products', [ProductController::class,'index'])->name('products');
+Route::get('/products', [ProductController::class,'index'])->name('products.index');
+Route::get('/products/create', [ProductController::class,'create'])->name('products.create');
+Route::post('/products/add', [ProductController::class,'store'])->name('products.store');
 Route::get('/api-doc', [WebController::class,'apiDoc'])->name('api-doc');
