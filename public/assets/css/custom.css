@@ -8,3 +8,13 @@
 .products-ul span{
     font-weight: bold;
 }
+.btn-green
+{
+    float: right;
+    border: 1px solid #91ed91;
+    border-radius: 6px;
+    padding: 3px 6px;
+    background: #56c656;
+    color: white;
+    text-align: center;
+}
