@@ -15,4 +15,9 @@ class Product extends Model
         return $this->belongsToMany(Category::class, 'category_product');
     }
 
+    public function scopeActive($query)
+    {
+        return $query->where('active',1);
+    }
+
 }

@@ -12,10 +12,17 @@
                 <nav data-menu="horizontal">
                     <ul class="nav nav-one">
                         <li><a href="{{route('home')}}">Home</a></li>
-                        <li><a href="{{route('products.index')}}">Products</a></li>
                         <li><a href="{{route('api-doc')}}">API Doc</a></li>
                     </ul>
                 </nav>
+            </div>
+
+            <div class="small-4 xlarge-2  text-center">
+                <div class="logo">
+                    <a href="{{route('dashboard')}}" title="DLC Test Exam">
+                        <button type="button" class="btn btn-info">Admin Panel</button>
+                    </a>
+                </div>
             </div>
 
         </div>
